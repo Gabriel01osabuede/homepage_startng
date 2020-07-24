@@ -1,0 +1,77 @@
+#bgcolornavbar{
+  background-color: #F2EBE9;
+}
+button{
+  background-color: #E7332B;
+}
+
+button a{
+  color: #ffffff;
+  font-size: 12px;
+}
+
+#centered{
+  margin-top: 130px;
+}
+
+div .red{
+  color: #E7332B;
+  font-size: 14px;
+}
+div .card-body h5{
+  color: #514949;
+  font-size: 15px;
+}
+div .mentorparg{
+  font-size: 25px;
+  font-weight: bold;
+  color: #514949;
+}
+.mobile{
+  display: none;
+}
+div .card-body .cardpfontsize{
+  font-size: 12px;
+}
+
+div .card-body .card-text{
+  font-size: 14px;
+}
+div .card-body .card-title{
+  color:#514949;
+}
+div .mentorspargfont{
+  font-size: 13px;
+  color: #514949;
+}
+nav .move{
+  display: flex;
+  justify-content: center;
+}
+
+.black{
+  background-color: #000000;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+@media (min-device-width:360px) and (max-width:640px) {
+  div .row #none{
+    display: none;
+  }
+  #centered{
+    margin-top: 50px;
+  }
+  .mobile{
+    display: block;
+  }
+  #desktop3{
+    display: none;
+  }
+  #desktop{
+    display: none;
+  }
+  #desktop2{
+    display: none;
+  }
+}
